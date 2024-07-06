@@ -1,0 +1,60 @@
+.profile-page {
+  
+  min-height: 100vh;
+  padding: 10px;
+background-color: white;
+}
+
+.profile-card {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #262626;
+}
+.profile-head {
+  display: flex;
+  width: 120%;
+}
+.profile-mid {
+  display: flex;
+  justify-content: space-between;
+}
+.logout {
+  margin: auto;
+  /* width: 180px; */
+  text-align: center;
+}
+
+.myposts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+
+}
+
+.img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.savebtn {
+  background-color: #262626;
+  color: white;
+  width: 60%;
+  padding: 8px 16px;
+  font-size: x-large;
+  font-weight: 300;
+  border-radius: 10px;
+  outline: none;
+  margin: 10px auto;
+  border: none;
+  transition:all 0.4s ease-in-out;
+  cursor: pointer;
+  align-self: center;
+}
+.savebtn:hover {
+  background-color: #575555;
+  color: black;
+}
